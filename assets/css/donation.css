@@ -1,0 +1,24 @@
+.donation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    
+}
+.donation .donation-row{
+    
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    /* background-color: yellow; */
+}
+
+.donation .donation-row .cash{
+    width: 30%;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
