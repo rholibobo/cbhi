@@ -1,24 +1,40 @@
-.donation{
+/* .iframe {
+    background-color: blue;
+    position: relative;
+    
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    
-}
-.donation .donation-row{
-    
-    display: flex;
-    justify-content: space-between;
-    /* gap: 20px; */
-    /* background-color: yellow; */
+    padding-top: 56.25%; 
 }
 
-.donation .donation-row .cash{
-    width: 30%;
-    padding: 1em;
-    border: 1px solid black;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.respo-iframe1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+.respo-iframe2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+  @media screen and (max-width: 600px) {
+    .iframe{
+        display: flex;
+        flex-direction: column;
+    }
+    .respo-iframe2{
+        left: 0;
+    }
+    .iframe-text{
+        margin: 0 ;
+    }
+  } */
