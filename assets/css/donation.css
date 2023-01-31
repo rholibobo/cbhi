@@ -1,0 +1,40 @@
+/* .iframe {
+    background-color: blue;
+    position: relative;
+    
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.respo-iframe1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+.respo-iframe2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+  @media screen and (max-width: 600px) {
+    .iframe{
+        display: flex;
+        flex-direction: column;
+    }
+    .respo-iframe2{
+        left: 0;
+    }
+    .iframe-text{
+        margin: 0 ;
+    }
+  } */
