@@ -1,139 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    include 'header.php'
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home || CapacityBay Health </title>
-    <!-- favicons Icons -->
+<div class="stricky-header stricked-menu main-menu">
+    <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+</div><!-- /.stricky-header -->
 
-    <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png">
-
-    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
-    <meta name="description" content="CapacityBay Health Initiatives">
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <link rel="stylesheet" href="assets/css/jarallax.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/agrikon-icons.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
-    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/css/donation.css">
-
-    <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-
-<body>
-    <div class="preloader">
-        <img class="preloader__image" width="55" src="assets/images/loader.png" alt="">
-    </div><!-- /.preloader -->
-    <div class="page-wrapper">
-
-        <header class="main-header">
-            <div class="topbar">
-                <div class="container">
-                    <div class="topbar__left">
-                        <div class="topbar__social">
-                            <a href="#" class="fab fa-facebook-square"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-pinterest-p"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                        </div><!-- /.topbar__social -->
-                        <p>Welcome to CapacityBay Health Initiative</p>
-                    </div><!-- /.topbar__left -->
-                    <div class="topbar__right">
-                        <a href="#"><i class="agrikon-icon-email"></i>info@capacitybayhealth.org</a>
-                        <a href="#"><i class="agrikon-icon-clock"></i>Mon - Sat 8:00 - 6:30, Sunday - CLOSED</a>
-                    </div><!-- /.topbar__right -->
-                </div><!-- /.container -->
-            </div><!-- /.topbar -->
-            <nav class="main-menu">
-                <div class="container">
-                    <div class="logo-box">
-                        <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="153"
-                                alt=""></a>
-                        <span class="fa fa-bars mobile-nav__toggler"></span>
-                    </div><!-- /.logo-box -->
-                    <ul class="main-menu__list">
-                        <li class="dropdown">
-                            <a href="index.html">Home</a>
-
-                        </li>
-                        <li>
-                            <a href="about-us.html">About Us</a>
-                        </li>
-                        <li class="dropdown"><a href="what-we-do.html">What we do</a>
-                            <ul>
-
-                                <li><a href="action.html">Action to Improve Health Literacy</a></li>
-                                <li><a href="medical-mission.html">Nigeria's Medical Mission & Volunteerism</a></li>
-                                <li><a href="medical-finance.html">Medical Financial Assistance Program</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="getinvolved.html">Get Involved</a>
-                            <ul>
-                                <li><a href="support.html">Support us</a></li>
-                                <li><a href="signup.html">Sign up</a></li>
-
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact Us</a>
-
-                        </li>
-
-                        <li class="dropdown"><a href="https://gisanddata.maps.arcgis.com/apps/dashboards/index.html#/bda7594740fd40299423467b48e9ecf6">CoronaVirus</a>
-                            <ul>
-
-                                <li><a href="https://covid19.ncdc.gov.ng/">NCDC Report</a></li>
-                                <li><a href="https://www.cdc.gov/Coronavirus/2019-ncov/index.html">Covid-19 Report</a></li>
-                                <li><a href="https://gisanddata.maps.arcgis.com/apps/dashboards/index.html#/bda7594740fd40299423467b48e9ecf6">Virus Map</a></li>
-                                <li><a href="https://www.whitehouse.gov/covidplan/">Guidelines</a></li>
-                                <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public?utm_source=desktop-snippet&utm_medium=snippet&utm_campaign=Health2020&utm_term=22988&utm_content=REL">WHO</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                    <!-- /.main-menu__list -->
-
-                    <div class="main-header__info">
-
-                        
-                    </div><!-- /.main-header__info -->
-                    &nbsp;&nbsp;
-                    <div class="main-header__info">
-
-                        <a href="support.html" class="main-header__info-phone" style="background-color: #255946;">
-                            <!-- <i class="agrikon-icon-phone-call"></i> -->
-                            <span class="main-header__info-phone-content">
-                                <!-- <span class="main-header__info-phone-text">Call Anytime</span> -->
-                                <span class="main-header__info-phone-title">Support Us</span>
-                            </span><!-- /.main-header__info-phone-content -->
-                        </a><!-- /.main-header__info-phone -->
-                    </div><!-- /.main-header__info -->
-                </div><!-- /.container -->
-            </nav>
-            <!-- /.main-menu -->
-        </header><!-- /.main-header -->
-
-        <div class="stricky-header stricked-menu main-menu">
-            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-        </div><!-- /.stricky-header -->
-
-        <section class="main-slider">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{
+<section class="main-slider">
+    <div class="swiper-container thm-swiper__slider" data-swiper-options='{
         "slidesPerView": 1,
         "loop": true,
         "effect": "fade",
@@ -145,433 +19,455 @@
             "prevEl": "#main-slider__swiper-button-prev"
         }
     }'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="image-layer"
-                            style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-1-1.jpg); background-blend-mode:overlay;">
-                        </div>
-                        <!-- /.image-layer -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-7 col-lg-7">
-                                    <span class="tagline">Welcome to CapacityBay Health</span>
-                                    <h2><span>A collective</span> <br>
-                                        action plan</h2>
-                                    <p>to improve health in communities in Nigeria, with a focus to keeping people
-                                        healthy.</p>
-                                    <a href="#" class=" thm-btn">Learn More</a>
-                                    <!-- /.thm-btn dynamic-radius -->
-                                </div><!-- /.col-lg-7 text-right -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <div class="image-layer"
-                            style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-2-1.jpg); background-blend-mode:overlay;">
-                        </div>
-                        <!-- /.image-layer -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-7 col-lg-7">
-
-                                    <h2><span>A commitment</span></h2>
-                                    <p>to increasing the number of Nigerians who are healthy at every stage of life.</p>
-                                    <a href="#" class=" thm-btn">Learn More</a>
-                                    <!-- /.thm-btn dynamic-radius -->
-                                </div><!-- /.col-lg-7 text-right -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <div class="image-layer"
-                            style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-1-2.jpg); background-blend-mode:overlay;">
-                        </div>
-                        <!-- /.image-layer -->
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-7 col-lg-7">
-
-                                    <h2><span>Working</span><br> together to
-                                    </h2>
-                                    <p>improve health and qualitoty of life. for individuals, families, and <br>
-                                        communities by moving the nation from a focus on sickness and disease to <br>
-                                        one based on prevention and wellness.</p>
-                                    <a href="#" class=" thm-btn">Learn More</a>
-                                    <!-- /.thm-btn dynamic-radius -->
-                                </div><!-- /.col-lg-7 text-right -->
-                            </div><!-- /.row -->
-                        </div><!-- /.container -->
-                    </div><!-- /.swiper-slide -->
-                </div><!-- /.swiper-wrapper -->
-
-                <!-- If we need navigation buttons -->
-                <div class="main-slider__nav">
-                    <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i
-                            class="agrikon-icon-left-arrow"></i>
-                    </div>
-                    <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i
-                            class="agrikon-icon-right-arrow"></i></div>
-                </div><!-- /.main-slider__nav -->
-
-            </div><!-- /.swiper-container thm-swiper__slider -->
-        </section><!-- /.main-slider -->
-
-
-
-
-        <!-- Corona Virus Start -->
-
-        <section class="about-three">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="about-three__image">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mOV1aBVYKGA"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-
-                        </div><!-- /.about-three__image -->
-                    </div><!-- /.col-lg-6 -->
-                    <div class="col-lg-6">
-                        <div class="about-three__content">
-                            <div class="block-title">
-                                <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>CORONAVIRUS INFORMATION</p>
-                                <h3>CORONAVIRUS</h3>
-                            </div><!-- /.block-title -->
-                            <ul class="about-three__list list-unstyled">
-                                <li style="padding-bottom: 10px ;">
-                                    <i class="fa fa-check-circle"></i>
-                                    <a href="" class="corona-btn" >World Realtime Virus Map</a>
-                                </li>
-                                <li style="padding-bottom: 10px ;">
-                                    <i class="fa fa-check-circle"></i>
-                                    <a href="" class="corona-btn" >Covid-19</a>
-                                </li>
-                                <li style="padding-bottom: 10px ;">
-                                    <i class="fa fa-check-circle"></i>
-                                    <a href="" class="corona-btn" >Guidelines</a>
-                                </li>
-
-                            </ul><!-- /.about-three__list list-unstyled -->
-                            <div class="about-three__summery">
-                                <p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2
-                                    virus.
-                                    Most people who fall sick with COVID-19 will experience mild to moderate symptoms
-                                    and recover without special treatment. However, some will become seriously ill and
-                                    require medical attention. </p>
-                            </div><!-- /.about-three__summery -->
-
-                        </div><!-- /.about-three__content -->
-                    </div><!-- /.col-lg-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.about-three -->
-
-
-        <!-- Corona Virus End -->
-        <section class="about-one">
-            <img src="assets/images/icons/about-bg-icon-1-1.png" class="about-one__bg-shape-1" alt="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="about-one__images">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="">
-                            <img src="assets/images/giving.jpg" alt="">
-                            <div class="about-one__count wow fadeInLeft" data-wow-duration="1500ms">
-                                <span>Trusted by</span>
-                                <h4>Many</h4>
-                            </div><!-- /.about-one__count -->
-                        </div><!-- /.about-one__images -->
-                    </div><!-- /.col-lg-6 -->
-                    <div class="col-lg-7">
-                        <div class="about-one__content">
-                            <div class="block-title text-left">
-                                <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>Welcome to CapacityBay Health</p>
-                                <h3>About us</h3>
-                            </div><!-- /.block-title -->
-                            <div class="about-one__summery">
-                                <p style="text-align: justify;">A collective action plan to improve health in accordance
-                                    with the humanitarian principles in the delivery of health care in rural Nigerian
-                                    communities</p>
-                                <p>CapacityBay Health Initiative (CBHI) is a not-for-profit healthcare and humanitarian
-                                    relief agency which focuses on and specializes in medical and emergency relief
-                                    services in rural communities. CBHI was founded in late 2017 in Nigeria as a
-                                    healthcare and humanitarian division of CapacityBay Inc based in the United States.
-                                </p>
-
-                                <p style="text-align: justify;"> As a healthcare and humanitarian relief agency, CBHI
-                                    offers primary and community health care support to vulnerable and underprivileged
-                                    individuals and families in rural communities in Nigeria, using a variety of means
-                                    and approaches.</p>
-
-                                <p style="text-align: justify;"> CBHI was birthed from the realization that most
-                                    vulnerable and underprivileged individuals, families and communities throughout
-                                    Nigeria (a nation of about 200 million people) lack access to basic health care due
-                                    to several factors which include but not limited to financial constraints and poor
-                                    healthcare system resources.</p>
-
-
-                            </div><!-- /.about-one__summery -->
-                            <div class="about-one__icon-row">
-                                <div class="row">
-                                    <h2>Our Vision</h2>
-                                    <p>
-                                        The vision of CBHI is to provide intervention strategies, and support to the
-                                        administration of preventive health care services in Nigeria’s underprivileged
-                                        and rural communities, allowing vulnerable and poor individuals and families to
-                                        achieve access to healthcare services. To attain this, CBHI is taking leadership
-                                        and resource mobilization role in addressing the social and economic
-                                        determinants to health care as they impact individuals, families and
-                                        communities.</p>
-                                </div><!-- /.row -->
-                            </div><!-- /.about-one__icon-row -->
-                            <a href="support" class="thm-btn">Join us</a><!-- /.thm-btn -->
-                        </div><!-- /.about-one__content -->
-                    </div><!-- /.col-lg-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.about-one -->
-
-        <section class="service-two">
-            <div class="service-two__bottom-curv"></div><!-- /.service-two__bottom-curv -->
-            <div class="container">
-                <div class="block-title text-center">
-                    <div class="block-title__image"></div><!-- /.block-title__image -->
-                    <h3>What We Do</h3>
-                    <p>Helping poor and rural people in Nigeria understand and take control of their health through
-                        comprehensive health coverage for all age groups in rural communities.</p>
-                </div><!-- /.block-title -->
-                <div class="row">
-                    <div class="col-sm-12 col-md-8 col-lg-4">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-1.jpg" alt="">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-
-                                <h3><a href="medical-finance.html">Medical Financial Assistance Program</a></h3>
-                                <p>The vision of CBHI is to provide intervention strategies, and support to the
-                                    administration of preventive health care services in Nigeria’s underprivileged and
-                                    rural communities, allowing vulnerable and poor individuals and families to achieve
-                                    access to healthcare services. To attain this, CBHI is taking leadership and
-                                    resource mobilization role in addressing the social and economic determinants to
-                                    health care as they impact individuals, families and communities.</p>
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                    <div class="col-sm-12 col-md-8 col-lg-4">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-2.jpg" alt="">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-
-                                <h3><a href="medical-mission.html">Medical Mission & Volunteerism</a></h3>
-                                <p>Volunteers, especially Nigerian medical and allied health professionals at home and
-                                    abroad, can plan and take time off to volunteer service to poor and rural
-                                    communities, working with local people from the inner cities and rural areas of
-                                    Nigeria. Alongside other volunteers, a volunteer support patient seeking health care
-                                    in communities, in local clinics and in local hospitals. This unique and caring
-                                    program is open to Nigerians and non-Nigerians…</p>
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                    <div class="col-sm-12 col-md-8 col-lg-4">
-                        <div class="service-two__card">
-                            <div class="service-two__card-image">
-                                <img src="assets/images/services/service-2-3.jpg" alt="">
-                            </div><!-- /.service-two__card-image -->
-                            <div class="service-two__card-content">
-
-                                <h3><a href="action.html">Action to Improve Health Literacy</a></h3>
-                                <p>In today’s communication-rich environment including rural and poor communities in
-                                    Nigeria, individuals and families look to many places for information about their
-                                    health and safety. Nevertheless, most of the available health and safety information
-                                    out there is too technical, too complex, and visibly too elusive about recommended
-                                    actions for poor and rural communities in Nigeria…</p>
-                            </div><!-- /.service-two__card-content -->
-                        </div><!-- /.service-two__card -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.service-two -->
-
-        
-
-        <section class="call-to-action__three jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% 50%" >
-            <img class="call-to-action__three__bg jarallax-img" src="assets/images/backgrounds/cta-1-bg-1.jpg"
-                alt="parallax-image" />
-            <div class="container pb-80">
-                <div class="row">
-                    <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
-                        <div class="call-to-action__three-image iframe">
-                            <!-- <img src="assets/images/resources/cta-3-1.jpg" alt=""> -->
-                            <iframe width="350" height="200"  src="https://www.youtube.com/embed/trZRoAc4oug"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen ></iframe>
-                            <!-- <img src="assets/images/resources/cta-3-2.jpg" alt=""> -->
-                            <iframe 
-                            src="https://www.youtube.com/embed/E6mAjmbPnCI?feature=oembed?controls=1" width="350" height="200">
-                            </iframe>
-                        </div><!-- /.call-to-action__three-image -->
-                    </div><!-- /.col-lg-5 -->
-                    <div class="col-lg-6 ">
-                        <div class="call-to-action__three-content " >
-                            <h3>Support our vision</h3>
-                            <p style="color: white;">By donating to CBHI, you have not only helped in saving a life of an individual or family, you are also helping to change and improve a community.
-                                <br>
-                                If you think you have the heart, love and the passion to make a difference in the lives of individuals and families facing medical and related healthcare challenges in Nigeria, a nation of about 200 million people in sub-Sahara Africa, then click on the link below:
-                            
-                                Interested in becoming a sponsor?</p>
-                            <a href="#" class="thm-btn">Get Involved</a><!-- /.thm-btn -->
-                        </div><!-- /.call-to-action__three-content -->
-                    </div><!-- /.col-lg-7 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.call-to-action__three -->
-
-        
-        <section class="gray-boxed-wrapper home-one__boxed">
-            <img src="assets/images/icons/home-1-blog-bg.png" alt="" class="home-one__boxed-bg">
-            <section class="blog-home-two blog-home-one">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image-layer"
+                    style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-1-1.jpg); background-blend-mode:overlay;">
+                </div>
+                <!-- /.image-layer -->
                 <div class="container">
-                    <div class="row top-row">
-                        <div class="col-lg-6">
-                            <div class="block-title">
-                                <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>From the blog post</p>
-                                <h3>Latest News & Articles
-                                    Directly from Blog</h3>
-                            </div><!-- /.block-title -->
-                        </div><!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <p class="block-text">Read NEWS about the latest health stories making the rounds</p>
-                        </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
                     <div class="row">
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/injection.jpg"
-                                        alt="Best Way to Do Eco and Agriculture">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
-                                        <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">Divvying up doses: How Michigan’s race, income factors impact vaccine allotments across the state</a></h3>
-                                    <p>Michigan’s 10 most populous counties collectively received about 3,400 fewer first doses of COVID-19 vaccine last week after the state applied a formula that factors in race, poverty, housing and other social vulnerabilities instead of allocating vaccine doses by share of population.</p>
-                                    <a href="#" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/giving.jpg"
-                                        alt="Leverage agile frameworks to provide">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
-                                        <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">Michigan Medicine expands hospital at-home program</a></h3>
-                                    <p>Medicare patients seeking emergency care at Michigan Medicine’s University Hospital in Ann Arbor will soon have the option of returning home instead of being hospitalized in a cutting-edge hospital at-home program.</p>
-                                    <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
-                        <div class="col-md-12 col-lg-4">
-                            <div class="blog-card">
-                                <div class="blog-card__image">
-                                    <img src="assets/images/ed.jpg"
-                                        alt="Organically grow the holistic world view">
-                                    <a href="blog-details.html"></a>
-                                </div><!-- /.blog-card__image -->
-                                <div class="blog-card__content">
-                                    <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
-                                    <div class="blog-card__meta">
-                                        <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
-                                        <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
-                                    </div><!-- /.blog-card__meta -->
-                                    <h3><a href="blog-details.html">5G installed at Seattle VA Medical Center</a></h3>
-                                    <p>The Veterans Affairs Department plans to roll out pilot projects to study whether 5G improves healthcare delivery and hospital processes with AT&T, which installed 5G infrastructure at the Seattle hospital campus through a public-private partnershi</p>
-                                    <a href="blog-details.html" class="thm-btn">Read More</a><!-- /.thm-btn -->
-                                </div><!-- /.blog-card__content -->
-                            </div><!-- /.blog-card -->
-                        </div><!-- /.col-md-12 col-lg-4 -->
+                        <div class="col-xl-7 col-lg-7">
+                            <span class="tagline">Welcome to CapacityBay Health</span>
+                            <h2><span>A collective</span> <br>
+                                action plan</h2>
+                            <p>to improve health in communities in Nigeria, with a focus to keeping people
+                                healthy.</p>
+                            <a href="action.html" class=" thm-btn">Learn More</a>
+                            <!-- /.thm-btn dynamic-radius -->
+                        </div><!-- /.col-lg-7 text-right -->
                     </div><!-- /.row -->
-                    <hr />
                 </div><!-- /.container -->
-            </section><!-- /.blog-home-two -->
-            
-        </section><!-- /.gray-boxed-wrapper -->
+            </div><!-- /.swiper-slide -->
+            <div class="swiper-slide">
+                <div class="image-layer"
+                    style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-2-1.jpg); background-blend-mode:overlay;">
+                </div>
+                <!-- /.image-layer -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-7">
 
-        <section class="contact-two">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-                        <div class="contact-two__image">
-                            <div class="contact-two__image-bubble-1"></div><!-- /.contact-two__image-bubble-1 -->
-                            <div class="contact-two__image-bubble-2"></div><!-- /.contact-two__image-bubble-2 -->
-                            <div class="contact-two__image-bubble-3"></div><!-- /.contact-two__image-bubble-3 -->
-                            <img src="assets/images/health-literacy.jpg" class="img-fluid" alt="">
-                        </div><!-- /.contact-two__image -->
-                    </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-5 -->
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
-                        <div class="contact-two__content">
-                            <div class="block-title">
-                                <div class="block-title__image"></div><!-- /.block-title__image -->
-                                <p>Contact now</p>
-                                <h3>Leave Us A
-                                    Message</h3>
-                            </div><!-- /.block-title -->
-                            <!-- <div class="contact-two__summery">
+                            <h2><span>A commitment</span></h2>
+                            <p>to increasing the number of Nigerians who are healthy at every stage of life.</p>
+                            <a href="medical-mission.html" class=" thm-btn">Learn More</a>
+                            <!-- /.thm-btn dynamic-radius -->
+                        </div><!-- /.col-lg-7 text-right -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.swiper-slide -->
+            <div class="swiper-slide">
+                <div class="image-layer"
+                    style="background-color: #255946; background-image: url(assets/images/main-slider/main-slider-1-2.jpg); background-blend-mode:overlay;">
+                </div>
+                <!-- /.image-layer -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-7">
+
+                            <h2><span>Working</span><br> together to
+                            </h2>
+                            <p>improve health and qualitoty of life. for individuals, families, and <br>
+                                communities by moving the nation from a focus on sickness and disease to <br>
+                                one based on prevention and wellness.</p>
+                            <a href="getinvolved.html" class=" thm-btn">Learn More</a>
+                            <!-- /.thm-btn dynamic-radius -->
+                        </div><!-- /.col-lg-7 text-right -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.swiper-slide -->
+        </div><!-- /.swiper-wrapper -->
+
+        <!-- If we need navigation buttons -->
+        <div class="main-slider__nav">
+            <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i class="agrikon-icon-left-arrow"></i>
+            </div>
+            <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i
+                    class="agrikon-icon-right-arrow"></i></div>
+        </div><!-- /.main-slider__nav -->
+
+    </div><!-- /.swiper-container thm-swiper__slider -->
+</section><!-- /.main-slider -->
+
+
+
+
+<!-- Corona Virus Start -->
+
+<section class="about-three">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-three__image">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mOV1aBVYKGA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+                </div><!-- /.about-three__image -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6">
+                <div class="about-three__content">
+                    <div class="block-title">
+                        <div class="block-title__image"></div><!-- /.block-title__image -->
+                        <p>CORONAVIRUS INFORMATION</p>
+                        <h3>CORONAVIRUS</h3>
+                    </div><!-- /.block-title -->
+                    <ul class="about-three__list list-unstyled">
+                        <li style="padding-bottom: 10px ;">
+                            <i class="fa fa-check-circle"></i>
+                            <a href="https://www.covidvisualizer.com/" class="corona-btn">World Realtime Virus Map</a>
+                        </li>
+                        <li style="padding-bottom: 10px ;">
+                            <i class="fa fa-check-circle"></i>
+                            <a href="https://www.cdc.gov/Coronavirus/2019-ncov/index.html"
+                                class="corona-btn">Covid-19</a>
+                        </li>
+                        <li style="padding-bottom: 10px ;">
+                            <i class="fa fa-check-circle"></i>
+                            <a href="https://www.whitehouse.gov/wp-content/uploads/2020/03/03.16.20_coronavirus-guidance_8.5x11_315PM.pdf"
+                                class="corona-btn">Guidelines</a>
+                        </li>
+
+                    </ul><!-- /.about-three__list list-unstyled -->
+                    <div class="about-three__summery">
+                        <p>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2
+                            virus.
+                            Most people who fall sick with COVID-19 will experience mild to moderate symptoms
+                            and recover without special treatment. However, some will become seriously ill and
+                            require medical attention. </p>
+                    </div><!-- /.about-three__summery -->
+
+                </div><!-- /.about-three__content -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.about-three -->
+
+
+<!-- Corona Virus End -->
+<section class="about-one">
+    <img src="assets/images/icons/about-bg-icon-1-1.png" class="about-one__bg-shape-1" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="about-one__images">
+                    <img src="assets/images/resources/about-1-1.jpg" alt="">
+                    <img src="assets/images/giving.jpg" alt="">
+                    <div class="about-one__count wow fadeInLeft" data-wow-duration="1500ms">
+                        <span>Trusted by</span>
+                        <h4>Many</h4>
+                    </div><!-- /.about-one__count -->
+                </div><!-- /.about-one__images -->
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-7">
+                <div class="about-one__content">
+                    <div class="block-title text-left">
+                        <div class="block-title__image"></div><!-- /.block-title__image -->
+                        <p>Welcome to CapacityBay Health</p>
+                        <h3>About us</h3>
+                    </div><!-- /.block-title -->
+                    <div class="about-one__summery">
+                        <p style="text-align: justify;">A collective action plan to improve health in accordance
+                            with the humanitarian principles in the delivery of health care in rural Nigerian
+                            communities</p>
+                        <p>CapacityBay Health Initiative (CBHI) is a not-for-profit healthcare and humanitarian
+                            relief agency which focuses on and specializes in medical and emergency relief
+                            services in rural communities. CBHI was founded in late 2017 in Nigeria as a
+                            healthcare and humanitarian division of CapacityBay Inc based in the United States.
+                        </p>
+
+                        <p style="text-align: justify;"> As a healthcare and humanitarian relief agency, CBHI
+                            offers primary and community health care support to vulnerable and underprivileged
+                            individuals and families in rural communities in Nigeria, using a variety of means
+                            and approaches.</p>
+
+                        <p style="text-align: justify;"> CBHI was birthed from the realization that most
+                            vulnerable and underprivileged individuals, families and communities throughout
+                            Nigeria (a nation of about 200 million people) lack access to basic health care due
+                            to several factors which include but not limited to financial constraints and poor
+                            healthcare system resources.</p>
+
+
+                    </div><!-- /.about-one__summery -->
+                    <div class="about-one__icon-row">
+                        <div class="row">
+                            <h2>Our Vision</h2>
+                            <p>
+                                The vision of CBHI is to provide intervention strategies, and support to the
+                                administration of preventive health care services in Nigeria’s underprivileged
+                                and rural communities, allowing vulnerable and poor individuals and families to
+                                achieve access to healthcare services. To attain this, CBHI is taking leadership
+                                and resource mobilization role in addressing the social and economic
+                                determinants to health care as they impact individuals, families and
+                                communities.</p>
+                        </div><!-- /.row -->
+                    </div><!-- /.about-one__icon-row -->
+                    <a href="support.html" class="thm-btn">Join us</a><!-- /.thm-btn -->
+                </div><!-- /.about-one__content -->
+            </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.about-one -->
+
+<section class="service-two">
+    <div class="service-two__bottom-curv"></div><!-- /.service-two__bottom-curv -->
+    <div class="container">
+        <div class="block-title text-center">
+            <div class="block-title__image"></div><!-- /.block-title__image -->
+            <h3>What We Do</h3>
+            <p>Helping poor and rural people in Nigeria understand and take control of their health through
+                comprehensive health coverage for all age groups in rural communities.</p>
+        </div><!-- /.block-title -->
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-4">
+                <div class="service-two__card">
+                    <div class="service-two__card-image">
+                        <img src="assets/images/services/service-2-1.jpg" alt="">
+                    </div><!-- /.service-two__card-image -->
+                    <div class="service-two__card-content">
+
+                        <h3><a href="medical-finance.html">Medical Financial Assistance Program</a></h3>
+                        <p>The vision of CBHI is to provide intervention strategies, and support to the
+                            administration of preventive health care services in Nigeria’s underprivileged and
+                            rural communities, allowing vulnerable and poor individuals and families to achieve
+                            access to healthcare services. To attain this, CBHI is taking leadership and
+                            resource mobilization role in addressing the social and economic determinants to
+                            health care as they impact individuals, families and communities.</p>
+                    </div><!-- /.service-two__card-content -->
+                </div><!-- /.service-two__card -->
+            </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+            <div class="col-sm-12 col-md-8 col-lg-4">
+                <div class="service-two__card">
+                    <div class="service-two__card-image">
+                        <img src="assets/images/services/service-2-2.jpg" alt="">
+                    </div><!-- /.service-two__card-image -->
+                    <div class="service-two__card-content">
+
+                        <h3><a href="medical-mission.html">Medical Mission & Volunteerism</a></h3>
+                        <p>Volunteers, especially Nigerian medical and allied health professionals at home and
+                            abroad, can plan and take time off to volunteer service to poor and rural
+                            communities, working with local people from the inner cities and rural areas of
+                            Nigeria. Alongside other volunteers, a volunteer support patient seeking health care
+                            in communities, in local clinics and in local hospitals. This unique and caring
+                            program is open to Nigerians and non-Nigerians…</p>
+                    </div><!-- /.service-two__card-content -->
+                </div><!-- /.service-two__card -->
+            </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+            <div class="col-sm-12 col-md-8 col-lg-4">
+                <div class="service-two__card">
+                    <div class="service-two__card-image">
+                        <img src="assets/images/services/service-2-3.jpg" alt="">
+                    </div><!-- /.service-two__card-image -->
+                    <div class="service-two__card-content">
+
+                        <h3><a href="action.html">Action to Improve Health Literacy</a></h3>
+                        <p>In today’s communication-rich environment including rural and poor communities in
+                            Nigeria, individuals and families look to many places for information about their
+                            health and safety. Nevertheless, most of the available health and safety information
+                            out there is too technical, too complex, and visibly too elusive about recommended
+                            actions for poor and rural communities in Nigeria…</p>
+                    </div><!-- /.service-two__card-content -->
+                </div><!-- /.service-two__card -->
+            </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
+
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.service-two -->
+
+
+
+<section class="call-to-action__three jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% 50%">
+    <img class="call-to-action__three__bg jarallax-img" src="assets/images/backgrounds/cta-1-bg-1.jpg"
+        alt="parallax-image" />
+    <div class="container pb-80">
+        <div class="row">
+            <div class="col-lg-5 wow fadeInLeft" data-wow-duration="1500ms">
+                <div class="call-to-action__three-image iframe">
+                    <!-- <img src="assets/images/resources/cta-3-1.jpg" alt=""> -->
+                    <iframe width="350" height="200" src="https://www.youtube.com/embed/trZRoAc4oug"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!-- <img src="assets/images/resources/cta-3-2.jpg" alt=""> -->
+                    <iframe src="https://www.youtube.com/embed/E6mAjmbPnCI?feature=oembed?controls=1" width="350"
+                        height="200">
+                    </iframe>
+                </div><!-- /.call-to-action__three-image -->
+            </div><!-- /.col-lg-5 -->
+            <div class="col-lg-6 ">
+                <div class="call-to-action__three-content ">
+                    <h3>Support our vision</h3>
+                    <p style="color: white;">By donating to CBHI, you have not only helped in saving a life of an
+                        individual or family, you are also helping to change and improve a community.
+                        <br>
+                        If you think you have the heart, love and the passion to make a difference in the lives of
+                        individuals and families facing medical and related healthcare challenges in Nigeria, a nation
+                        of about 200 million people in sub-Sahara Africa, then click on the link below:
+
+                        Interested in becoming a sponsor?
+                    </p>
+                    <a href="getinvolved.html" class="thm-btn">Get Involved</a><!-- /.thm-btn -->
+                </div><!-- /.call-to-action__three-content -->
+            </div><!-- /.col-lg-7 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.call-to-action__three -->
+
+
+<section class="gray-boxed-wrapper home-one__boxed">
+    <img src="assets/images/icons/home-1-blog-bg.png" alt="" class="home-one__boxed-bg">
+    <section class="blog-home-two blog-home-one">
+        <div class="container">
+            <div class="row top-row">
+                <div class="col-lg-6">
+                    <div class="block-title">
+                        <div class="block-title__image"></div><!-- /.block-title__image -->
+                        <p>From the blog post</p>
+                        <h3>Latest News & Articles
+                            Directly from Blog</h3>
+                    </div><!-- /.block-title -->
+                </div><!-- /.col-lg-6 -->
+                <div class="col-lg-6">
+                    <p class="block-text">Read NEWS about the latest health stories making the rounds</p>
+                </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="assets/images/injection.jpg" alt="Best Way to Do Eco and Agriculture">
+                            <a
+                                href="https://capacitybayhealth.org/2021/03/09/divvying-up-doses-how-michigans-race-income-factors-impact-vaccine-allotments-across-the-state/"></a>
+                        </div><!-- /.blog-card__image -->
+                        <div class="blog-card__content">
+                            <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
+                            <div class="blog-card__meta">
+                                <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
+                                <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
+                            </div><!-- /.blog-card__meta -->
+                            <h3><a
+                                    href="https://capacitybayhealth.org/2021/03/09/divvying-up-doses-how-michigans-race-income-factors-impact-vaccine-allotments-across-the-state/">Divvying
+                                    up doses: How Michigan’s race, income factors impact vaccine allotments across the
+                                    state</a></h3>
+                            <p>Michigan’s 10 most populous counties collectively received about 3,400 fewer first doses
+                                of COVID-19 vaccine last week after the state applied a formula that factors in race,
+                                poverty, housing and other social vulnerabilities instead of allocating vaccine doses by
+                                share of population.</p>
+                            <a href="https://capacitybayhealth.org/2021/03/09/divvying-up-doses-how-michigans-race-income-factors-impact-vaccine-allotments-across-the-state/"
+                                class="thm-btn">Read More</a><!-- /.thm-btn -->
+                        </div><!-- /.blog-card__content -->
+                    </div><!-- /.blog-card -->
+                </div><!-- /.col-md-12 col-lg-4 -->
+                <div class="col-md-12 col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="assets/images/giving.jpg" alt="Leverage agile frameworks to provide">
+                            <a
+                                href="https://capacitybayhealth.org/2021/02/02/michigan-medicine-expands-hospital-at-home-program/"></a>
+                        </div><!-- /.blog-card__image -->
+                        <div class="blog-card__content">
+                            <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
+                            <div class="blog-card__meta">
+                                <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
+                                <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
+                            </div><!-- /.blog-card__meta -->
+                            <h3><a
+                                    href="https://capacitybayhealth.org/2021/02/02/michigan-medicine-expands-hospital-at-home-program/">Michigan
+                                    Medicine expands hospital at-home program</a></h3>
+                            <p>Medicare patients seeking emergency care at Michigan Medicine’s University Hospital in
+                                Ann Arbor will soon have the option of returning home instead of being hospitalized in a
+                                cutting-edge hospital at-home program.</p>
+                            <a href="https://capacitybayhealth.org/2021/02/02/michigan-medicine-expands-hospital-at-home-program/"
+                                class="thm-btn">Read More</a><!-- /.thm-btn -->
+                        </div><!-- /.blog-card__content -->
+                    </div><!-- /.blog-card -->
+                </div><!-- /.col-md-12 col-lg-4 -->
+                <div class="col-md-12 col-lg-4">
+                    <div class="blog-card">
+                        <div class="blog-card__image">
+                            <img src="assets/images/ed.jpg" alt="Organically grow the holistic world view">
+                            <a
+                                href="https://capacitybayhealth.org/2021/02/02/5g-installed-at-seattle-va-medical-center/"></a>
+                        </div><!-- /.blog-card__image -->
+                        <div class="blog-card__content">
+                            <!-- <div class="blog-card__date">18 Nov</div>/.blog-card__date -->
+                            <div class="blog-card__meta">
+                                <!-- <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a> -->
+                                <!-- <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a> -->
+                            </div><!-- /.blog-card__meta -->
+                            <h3><a
+                                    href="https://capacitybayhealth.org/2021/02/02/5g-installed-at-seattle-va-medical-center/">5G
+                                    installed at Seattle VA Medical Center</a></h3>
+                            <p>The Veterans Affairs Department plans to roll out pilot projects to study whether 5G
+                                improves healthcare delivery and hospital processes with AT&T, which installed 5G
+                                infrastructure at the Seattle hospital campus through a public-private partnershi</p>
+                            <a href="https://capacitybayhealth.org/2021/02/02/5g-installed-at-seattle-va-medical-center/"
+                                class="thm-btn">Read More</a><!-- /.thm-btn -->
+                        </div><!-- /.blog-card__content -->
+                    </div><!-- /.blog-card -->
+                </div><!-- /.col-md-12 col-lg-4 -->
+            </div><!-- /.row -->
+            <hr />
+        </div><!-- /.container -->
+    </section><!-- /.blog-home-two -->
+
+</section><!-- /.gray-boxed-wrapper -->
+
+<section class="contact-two">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                <div class="contact-two__image">
+                    <div class="contact-two__image-bubble-1"></div><!-- /.contact-two__image-bubble-1 -->
+                    <div class="contact-two__image-bubble-2"></div><!-- /.contact-two__image-bubble-2 -->
+                    <div class="contact-two__image-bubble-3"></div><!-- /.contact-two__image-bubble-3 -->
+                    <img src="assets/images/health-literacy.jpg" class="img-fluid" alt="">
+                </div><!-- /.contact-two__image -->
+            </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-5 -->
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                <div class="contact-two__content">
+                    <div class="block-title">
+                        <div class="block-title__image"></div><!-- /.block-title__image -->
+                        <p>Contact now</p>
+                        <h3>Leave Us A
+                            Message</h3>
+                    </div><!-- /.block-title -->
+                    <!-- <div class="contact-two__summery">
                                 <p></p>
                             </div>/.contact-two__summery -->
-                        </div><!-- /.contact-two__content -->
-                    </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-4 -->
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
-                        <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <input type="text" name="name" placeholder="Full Name">
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-12">
-                                    <input type="text" name="email" placeholder="Email Address">
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-12">
-                                    <input type="text" name="phone" placeholder="Phone Number">
-                                </div><!-- /.col-lg-6 -->
-                                <div class="col-lg-12">
-                                    <textarea name="message" placeholder="Write Message"></textarea>
-                                </div><!-- /.col-lg-12 -->
-                                <div class="col-lg-12">
-                                    <button type="submit" class="thm-btn">Send Message</button><!-- /.thm-btn -->
-                                </div><!-- /.col-lg-12 -->
-                            </div><!-- /.row -->
-                        </form>
-                    </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-4 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.contact-two -->
+                </div><!-- /.contact-two__content -->
+            </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-4 -->
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <input type="text" name="name" placeholder="Full Name">
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-12">
+                            <input type="text" name="email" placeholder="Email Address">
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-12">
+                            <input type="text" name="phone" placeholder="Phone Number">
+                        </div><!-- /.col-lg-6 -->
+                        <div class="col-lg-12">
+                            <textarea name="message" placeholder="Write Message"></textarea>
+                        </div><!-- /.col-lg-12 -->
+                        <div class="col-lg-12">
+                            <button type="submit" class="thm-btn">Send Message</button><!-- /.thm-btn -->
+                        </div><!-- /.col-lg-12 -->
+                    </div><!-- /.row -->
+                </form>
+            </div><!-- /.col-sm-12 col-md-12 col-lg-12 col-xl-4 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact-two -->
 
 
 
-        <div class="client-carousel client-carousel__has-border-top">
-            <div class="container">
-                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 140, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+<div class="client-carousel client-carousel__has-border-top">
+    <div class="container">
+        <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 140, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
                 "0": {
                     "spaceBetween": 30,
                     "slidesPerView": 2
@@ -597,230 +493,72 @@
                     "slidesPerView": 5
                 }
             }}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                         </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/brand-1-1.png" alt="">
-                        </div><!-- /.swiper-slide -->
-                    </div><!-- /.swiper-wrapper -->
-                </div><!-- /.thm-swiper__slider -->
-            </div><!-- /.container -->
-        </div><!-- /.client-carousel -->
-        <footer class="site-footer">
-            <img src="assets/images/icons/footer-bg-icon-1.png" class="site-footer__shape-1" alt="">
-            <img src="assets/images/icons/footer-bg-icon-2.png" class="site-footer__shape-2" alt="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                        <div class="footer-widget">
-                            <a href="index.html" class="footer-widget__Logo">
-                                <img src="assets/images/logo-light.png" width="153" alt="">
-                            </a>
-                            <p>CapacityBay Health Initiative (CBHI) is a not-for-profit healthcare and humanitarian relief agency
-                                which focuses on and specializes in medical and emergency relief services in rural communities
-                            </p>
-                            <form action="#" data-url="YOUR_MAILCHIMP_URL" class="mc-form">
-                                <input type="email" name="EMAIL" placeholder="Email Address">
-                                <button type="submit"><i class="agrikon-icon-right-arrow"></i></button>
-                            </form><!-- /.mc-form -->
-                            <div class="mc-form__response"></div><!-- /.mc-form__response -->
-                            <div class="footer__social">
-                                <a href="#" class="fab fa-facebook-square"></a>
-                                <a href="#" class="fab fa-twitter"></a>
-                                <!-- <a href="#" class="fab fa-pinterest-p"></a> -->
-                                <a href="#" class="fab fa-instagram"></a>
-                            </div><!-- /.topbar__social -->
-                        </div><!-- /.footer-widget -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-4 -->
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-2">
-                        <div class="footer-widget footer-widget__links-widget">
-                            <h3 class="footer-widget__title">Links</h3><!-- /.footer-widget__title -->
-                            <ul class="list-unstyled footer-widget__links">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">What We Do</a></li>
-                                <li><a href="#">Get Involved</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">CoronaVirus Update</a></li>
-                            </ul><!-- /.list-unstyled -->
-                        </div><!-- /.footer-widget -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-2 -->
-                    
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                        <h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
-                        <ul class="list-unstyled footer-widget__contact">
-                            <li>
-                                <i class="agrikon-icon-telephone"></i>
-                                <a href="tel:301-970-9800">301 970 9800</a>
-                            </li>
-                            <li>
-                                <i class="agrikon-icon-email"></i>
-                                <a href="mailto:medicaldirector@capacitybayhealth.org">medicaldirector@capacitybayhealth.org</a>
-                            </li>
-                            <li>
-                                <i class="agrikon-icon-pin"></i>
-                                <a href="#">9701 Apollo Drive Largo, MD 20774 USA</a>
-                            </li>
-                        </ul><!-- /.list-unstyled -->
-                    </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </footer><!-- /.site-footer -->
-        <div class="bottom-footer">
-            <div class="container">
-                <p>Copyright © 2023 | CapacityBay Health Initiative | All rights reserved</p>
-                <div class="bottom-footer__links">
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Sitemap</a>
-                </div><!-- /.bottom-footer__links -->
-            </div><!-- /.container -->
-        </div><!-- /.bottom-footer -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+                <div class="swiper-slide">
+                    <img src="assets/images/resources/brand-1-1.png" alt="">
+                </div><!-- /.swiper-slide -->
+            </div><!-- /.swiper-wrapper -->
+        </div><!-- /.thm-swiper__slider -->
+    </div><!-- /.container -->
+</div><!-- /.client-carousel -->
 
-    </div><!-- /.page-wrapper -->
-
-
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="far fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
-                        alt="" /></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="agrikon-icon-email"></i>
-                    <a href="mailto:medicaldirector@capacitybayhealth.org">medicaldirector@capacitybayhealth.org</a>
-                </li>
-                <li>
-                    <i class="agrikon-icon-telephone"></i>
-                    <a href="tel:301-970-9800">301 970 9800</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__top">
-                <div class="mobile-nav__language">
-                    <img src="assets/images/resources/flag-1-1.jpg" alt="">
-                    <label class="sr-only" for="language-select">select language</label>
-                    <!-- /#language-select.sr-only -->
-                    <select class="selectpicker" id="language-select">
-                        <option value="english">English</option>
-                        <option value="arabic">Arabic</option>
-                    </select>
-                </div><!-- /.mobile-nav__language -->
-                <div class="mobile-nav__social">
-                    <a href="#" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
-                    <!-- <a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a> -->
-                    <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
-
-
-
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
-    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
-
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <script src="assets/js/bootstrap-select.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/circle-progress.min.js"></script>
-    <script src="assets/js/wNumb.min.js"></script>
-    <script src="assets/js/nouislider.min.js"></script>
-
-    <!-- template js -->
-    <script src="assets/js/theme.js"></script>
-</body>
-
-</html>
+<?php
+        include 'footer.php'
+?>
