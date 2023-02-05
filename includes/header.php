@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home || CapacityBay Health </title>
+    <title><?php echo $title ?></title>
     <!-- favicons Icons -->
 
     <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png">
@@ -18,21 +18,21 @@
         href="https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <link rel="stylesheet" href="assets/css/jarallax.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="assets/css/agrikon-icons.css">
-    <link rel="stylesheet" href="assets/css/nouislider.min.css">
-    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
-    <link rel="stylesheet" href="assets/css/donation.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/css/swiper.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/odometer.min.css">
+    <link rel="stylesheet" href="../assets/css/jarallax.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../assets/css/agrikon-icons.css">
+    <link rel="stylesheet" href="../assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="../assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="../assets/css/donation.css">
 
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -65,35 +65,35 @@
             <nav class="main-menu">
                 <div class="container">
                     <div class="logo-box">
-                        <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="153"
+                        <a href="../index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="153"
                                 alt=""></a>
                         <span class="fa fa-bars mobile-nav__toggler"></span>
                     </div><!-- /.logo-box -->
                     <ul class="main-menu__list">
                         <li class="dropdown">
-                            <a href="index.html">Home</a>
+                            <a href="../index.html">Home</a>
 
                         </li>
                         <li>
-                            <a href="about-us.html">About Us</a>
+                            <a href="../about-us.html">About Us</a>
                         </li>
                         <li class="dropdown"><a href="what-we-do.html">What we do</a>
                             <ul>
 
-                                <li><a href="action.html">Action to Improve Health Literacy</a></li>
-                                <li><a href="medical-mission.html">Nigeria's Medical Mission & Volunteerism</a></li>
-                                <li><a href="medical-finance.html">Medical Financial Assistance Program</a></li>
+                                <li><a href="../action.html">Action to Improve Health Literacy</a></li>
+                                <li><a href="../medical-mission.html">Nigeria's Medical Mission & Volunteerism</a></li>
+                                <li><a href="../medical-finance.html">Medical Financial Assistance Program</a></li>
                             </ul>
                         </li>
                         <li class="dropdown"><a href="getinvolved.html">Get Involved</a>
                             <ul>
-                                <li><a href="support.html">Support us</a></li>
-                                <li><a href="signup.html">Sign up</a></li>
+                                <li><a href="../support.html">Support us</a></li>
+                                <li><a href="../signup.html">Sign up</a></li>
 
                             </ul>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="../contact.html">Contact Us</a>
 
                         </li>
 
@@ -118,7 +118,7 @@
                     &nbsp;&nbsp;
                     <div class="main-header__info">
 
-                        <a href="support.html" class="main-header__info-phone" style="background-color: #255946;">
+                        <a href="../support.html" class="main-header__info-phone" style="background-color: #255946;">
                             <!-- <i class="agrikon-icon-phone-call"></i> -->
                             <span class="main-header__info-phone-content">
                                 <!-- <span class="main-header__info-phone-text">Call Anytime</span> -->
