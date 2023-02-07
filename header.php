@@ -12,27 +12,27 @@
     <link rel="manifest" href="assets/images/favicons/site.webmanifest">
     <meta name="description" content="CapacityBay Health Initiatives">
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/jarallax.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/agrikon-icons.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="assets/css/donation.css">
+
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="./assets/css/swiper.min.css">
-    <link rel="stylesheet" href="./assets/css/animate.min.css">
-    <link rel="stylesheet" href="./assets/css/odometer.min.css">
-    <link rel="stylesheet" href="./assets/css/jarallax.css">
-    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="./assets/css/agrikon-icons.css">
-    <link rel="stylesheet" href="./assets/css/nouislider.min.css">
-    <link rel="stylesheet" href="./assets/css/nouislider.pips.css">
-    <link rel="stylesheet" href="./assets/css/donation.css">
-
     <!-- template styles -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
