@@ -70,9 +70,8 @@
                         <span class="fa fa-bars mobile-nav__toggler"></span>
                     </div><!-- /.logo-box -->
                     <ul class="main-menu__list">
-                        <li class="dropdown">
+                        <li>
                             <a href="index.html">Home</a>
-
                         </li>
                         <li>
                             <a href="about-us.html">About Us</a>

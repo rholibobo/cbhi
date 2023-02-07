@@ -89,7 +89,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="agrikon-icon-email"></i>
-                    <a href="mailto:medicaldirector@capacitybayhealth.org">medicaldirector@capacitybayhealth.org</a>
+                    <a href="mailto:medicaldirector@capacitybayhealth.org">capacitybayhealth.org</a>
                 </li>
                 <li>
                     <i class="agrikon-icon-telephone"></i>
