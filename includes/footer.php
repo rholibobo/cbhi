@@ -6,7 +6,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-widget">
                             <a href="index.html" class="footer-widget__Logo">
-                                <img src="../assets/images/logo-light.png" width="153" alt="">
+                                <img src="assets/images/logo-light.png" width="153" alt="">
                             </a>
                             <p>CapacityBay Health Initiative (CBHI) is a not-for-profit healthcare and humanitarian relief agency
                                 which focuses on and specializes in medical and emergency relief services in rural communities
@@ -28,11 +28,11 @@
                         <div class="footer-widget footer-widget__links-widget">
                             <h3 class="footer-widget__title">Links</h3><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__links">
-                                <li><a href="../index.html">Home</a></li>
-                                <li><a href="../about-us.html">About us</a></li>
-                                <li><a href="../what-we-do.html">What We Do</a></li>
-                                <li><a href="../getinvolved.html">Get Involved</a></li>
-                                <li><a href="../contact.html">Contact Us</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="what-we-do.html">What We Do</a></li>
+                                <li><a href="getinvolved.html">Get Involved</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                                 <li><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">CoronaVirus Update</a></li>
                             </ul><!-- /.list-unstyled -->
                         </div><!-- /.footer-widget -->
@@ -51,7 +51,7 @@
                             </li>
                             <li>
                                 <i class="agrikon-icon-pin"></i>
-                                <a href="#">9701 Apollo Drive Largo, MD 20774 USA</a>
+                                <a href="https://goo.gl/maps/aXgV5QRfk2Ctt8kWA">9701 Apollo Drive Largo, MD 20774 USA</a>
                             </li>
                         </ul><!-- /.list-unstyled -->
                     </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
@@ -62,9 +62,9 @@
             <div class="container">
                 <p>Copyright © 2023 | CapacityBay Health Initiative | All rights reserved</p>
                 <div class="bottom-footer__links">
-                    <a href="#">Terms & Conditions</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Sitemap</a>
+                    <a href="terms-and-condition.html">Terms & Conditions</a>
+                    <a href="privacy-statement.html">Privacy Policy</a>
+                    <!-- <a href="#">Sitemap</a> -->
                 </div><!-- /.bottom-footer__links -->
             </div><!-- /.container -->
         </div><!-- /.bottom-footer -->
@@ -79,7 +79,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="far fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="../index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
                         alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -140,23 +140,23 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
-    <script src="../assets/js/jquery-3.5.1.min.js"></script>
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/swiper.min.js"></script>
-    <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="../assets/js/jquery.validate.min.js"></script>
-    <script src="../assets/js/bootstrap-select.min.js"></script>
-    <script src="../assets/js/wow.js"></script>
-    <script src="../assets/js/odometer.min.js"></script>
-    <script src="../assets/js/jquery.appear.min.js"></script>
-    <script src="../assets/js/jarallax.min.js"></script>
-    <script src="../assets/js/circle-progress.min.js"></script>
-    <script src="../assets/js/wNumb.min.js"></script>
-    <script src="../assets/js/nouislider.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+    <script src="assets/js/circle-progress.min.js"></script>
+    <script src="assets/js/wNumb.min.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
 
     <!-- template js -->
-    <script src="../assets/js/theme.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
